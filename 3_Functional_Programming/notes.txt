@@ -1,0 +1,23 @@
+
+**What happens when you run JavaScript:**
+
+*Step 1: Read & understand the code*
+The browser or runtime reads your JS code and checks syntax.
+
+*Step 2: Start running immediately (interpreted part)*
+JavaScript starts executing right away, like an interpreted language.
+
+*Step 3: Gets faster while running (compiled part)*
+The engine notices parts of code that run again and again (loops, functions).
+Those parts are compiled into machine code on the fly.
+
+This is called Just-In-Time (JIT) compilation.
+
+So:
+❌ Not fully interpreted
+❌ Not fully compiled
+✅ Interpreted first, then compiled while running
+
+******
+forEach is used for clean, readable iteration when an action must be applied to every element, whereas for loops are used when control over iteration (break, continue, index) is required.
+******
