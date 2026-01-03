@@ -10,10 +10,14 @@ let studentName = ["Shravani", "Midhat", "Roshani","Prachi", "Vedika"]
 //   console.log(studentName[i]);
 // }
 
-// for let of
+// for let of - gives elements
 
 // for(let name of studentName){
 //   console.log(name);
 // }
 
+/** for let in - gives index*/
 
+for(let name in studentName){
+  console.log(name)
+}
